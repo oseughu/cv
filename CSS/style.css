@@ -45,7 +45,9 @@ h3 {
 }
 
 .mountain {
-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .profile-pic,
