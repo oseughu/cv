@@ -1,19 +1,51 @@
 body {
-  background-color: #eaf6f6;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66bfbf;
+  margin-top: 0px;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
-  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
 }
 
-hr {
-  background-color: white;
-  border-style: dotted none none;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #e4f9f5;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-pic,
+.skills-pic {
+  height: 200px;
+  width: 200px;
 }
