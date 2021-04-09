@@ -44,6 +44,10 @@ h3 {
   top: 50px;
 }
 
+.mountain {
+max-width: 100%;
+}
+
 .profile-pic,
 .skills-pic {
   height: 200px;
