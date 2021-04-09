@@ -50,3 +50,7 @@ h3 {
   height: 200px;
   width: 200px;
 }
+
+.mountain {
+  max-width: fit-content;
+}
