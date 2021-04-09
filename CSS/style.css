@@ -2,6 +2,8 @@ body {
   margin: 0px;
   text-align: center;
   font-family: "Merriweather", serif;
+  width: 100%;
+  max-width: fit-content;
 }
 
 h1 {
