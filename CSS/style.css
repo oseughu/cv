@@ -1,21 +1,31 @@
 body {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: "Merriweather", serif;
   max-width: fit-content;
 }
 
 h1 {
-  margin-top: 0px;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  color: #66bfbf;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+p {
+  color: #40514e;
 }
 
 .top-container {
@@ -30,7 +40,8 @@ h3 {
 }
 
 .bottom-container {
-  background-color: #e4f9f5;
+  background-color: #66bfbf;
+  padding: 20px 30px;
 }
 
 .bottom-cloud {
@@ -45,12 +56,106 @@ h3 {
   top: 50px;
 }
 
-.profile-pic,
-.skills-pic {
-  height: 200px;
-  width: 200px;
+#skills {
+  padding: 0;
 }
 
-.mountain {
-  max-width: fit-content;
+.computer-img {
+  width: 25%;
+  float: right;
+  margin-left: auto;
+}
+
+.apple-img {
+  width: 25%;
+  float: left;
+  margin-right: auto;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: auto;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+}
+
+.project-pic {
+  height: 150px;
+  width: 150px;
+}
+
+.mountain-img {
+  width: 35rem;
+}
+
+.footer-link {
+  color: #11999e;
+  line-height: 1em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 4px;
+  width: 3%;
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.sabi {
+  text-decoration: none;
+}
+
+#hi {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: none; }
 }
